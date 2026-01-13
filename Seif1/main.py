@@ -1,4 +1,4 @@
-from inovice import Invoice
+from invoice import Invoice
 
 print("Please enter invoice details:")
 c_name = input("Customer Name: ")
