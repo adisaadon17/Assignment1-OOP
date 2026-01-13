@@ -15,8 +15,8 @@ This repository contains the implementation of the first assignment in the Objec
 ### 🛡️ Task 1: Invoice System (Encapsulation)
 * **Objective:** Developing a secure system for managing business invoices.
 * **Key Features:**
-    * **Data Hiding:** Implemented private attributes (using `__`) to prevent unauthorized access to sensitive data such as price and ID.
-    * **Controlled Access:** Used the `@property` decorator to provide read access to internal attributes without exposing the internal state.
+    * **Data Hiding:** Implemented a private attribute (using `__`) specifically for the **Invoice ID** to protect its integrity and prevent direct external modification.
+    * **Controlled Access:** Used the `@property` decorator to provide a clean interface for accessing invoice data, ensuring the internal logic remains protected.
     * **Currency Formatting:** Integrated the `locale` module to ensure that financial data is displayed in a professional currency format.
 
 ---
